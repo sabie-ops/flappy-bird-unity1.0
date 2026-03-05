@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 46744ab16caee224b9f2c014081af25f
+guid: cb27f8ac08252c245823aa8f0b844b92
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -108,12 +108,100 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: flappy-bird-pipe-png-steel-casing-pipe-11562902157uauyp2h0pu_0
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 541
+        width: 94
+        height: 313
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c4b8db12376f94690a7793a1808111
+      internalID: -629194556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy-bird-pipe-png-steel-casing-pipe-11562902157uauyp2h0pu_1
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 402
+        width: 32
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b462fe393db1d6648952dc1959f97117
+      internalID: 1326175601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy-bird-pipe-png-steel-casing-pipe-11562902157uauyp2h0pu_2
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 546
+        width: 93
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4dd653c06c5b18408d4c072e34d8fb2
+      internalID: -259887432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flappy-bird-pipe-png-steel-casing-pipe-11562902157uauyp2h0pu_3
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 37
+        width: 91
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f44675131493c1468b8d17a637bfe58
+      internalID: -365101551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8a4c6d0660f78a446a41644857935ab9
     internalID: 0
     vertices: []
     indices: 
@@ -122,7 +210,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      flappy-bird-pipe-png-steel-casing-pipe-11562902157uauyp2h0pu_0: -629194556
+      flappy-bird-pipe-png-steel-casing-pipe-11562902157uauyp2h0pu_1: 1326175601
+      flappy-bird-pipe-png-steel-casing-pipe-11562902157uauyp2h0pu_2: -259887432
+      flappy-bird-pipe-png-steel-casing-pipe-11562902157uauyp2h0pu_3: -365101551
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
