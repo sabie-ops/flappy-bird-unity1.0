@@ -1,11 +1,11 @@
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
 
-public class logicscore : MonoBehaviour
+public class logicscript : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
    public int playerScore;
-    public Text scoreText; // Glisse ton objet UI Text ici
+   public TextMeshProUGUI scoreText; // Glisse ton objet UI Text ici
 
     public void addScore()
     {
