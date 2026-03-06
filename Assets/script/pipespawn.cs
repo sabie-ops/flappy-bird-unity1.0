@@ -6,6 +6,8 @@ public class pipespawn : MonoBehaviour
     public float spawnRate = 2f;
     private float timer = 0f;
     public float heightOffset = 10f;
+    public bool birdIsAlive = true;
+    public NewMonoBehaviourScript bird;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -15,11 +17,24 @@ public class pipespawn : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (timer < spawnRate)
+        // if (timer < spawnRate)
+        // {
+        //     timer += Time.deltaTime;
+        // }
+        // else
+        // {
+        //     spawnPipe();
+        //     timer = 0;
+        // }
+
+            if (bird.birdIsAlive == false)
         {
-            timer += Time.deltaTime;
+            return;
         }
-        else
+
+        timer += Time.deltaTime;
+
+        if (timer >= spawnRate)
         {
             spawnPipe();
             timer = 0;
