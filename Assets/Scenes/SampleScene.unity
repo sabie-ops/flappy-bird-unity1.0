@@ -445,7 +445,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.82, y: -0.87, z: -2.89}
+  m_LocalPosition: {x: -1.27, y: -0.87, z: -2.89}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -961,8 +961,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -9130971572365487555, guid: 419778faddf0eb347a4da2ca440234b5, type: 3}
+      propertyPath: bird
+      value: 
+      objectReference: {fileID: 1932416336}
+    - target: {fileID: -9130971572365487555, guid: 419778faddf0eb347a4da2ca440234b5, type: 3}
       propertyPath: spawnRate
-      value: 0.5
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: -9130971572365487555, guid: 419778faddf0eb347a4da2ca440234b5, type: 3}
       propertyPath: heightOffset
@@ -1027,11 +1031,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 436931488328510182, guid: f2e4b0cf630576744a611a9ecbe7f792, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.52
+      value: -3.7
       objectReference: {fileID: 0}
     - target: {fileID: 436931488328510182, guid: f2e4b0cf630576744a611a9ecbe7f792, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.48
+      value: -0.74
       objectReference: {fileID: 0}
     - target: {fileID: 436931488328510182, guid: f2e4b0cf630576744a611a9ecbe7f792, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1067,12 +1071,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1029702011503489994, guid: f2e4b0cf630576744a611a9ecbe7f792, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1029702011503489994, guid: f2e4b0cf630576744a611a9ecbe7f792, type: 3}
       propertyPath: myRigidbody
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1932416337}
     - target: {fileID: 2390560939022416575, guid: f2e4b0cf630576744a611a9ecbe7f792, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -1144,6 +1148,22 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 6.427561, y: 5.5192437}
   m_EdgeRadius: 0
+--- !u!114 &1932416336 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1029702011503489994, guid: f2e4b0cf630576744a611a9ecbe7f792, type: 3}
+  m_PrefabInstance: {fileID: 1567054920}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932416330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 031c51ee8f0ec5d4ba96dc25ac3929dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
+--- !u!50 &1932416337 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 2929583164743963230, guid: f2e4b0cf630576744a611a9ecbe7f792, type: 3}
+  m_PrefabInstance: {fileID: 1567054920}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
